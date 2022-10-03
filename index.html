@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>E-commerce</title>
 </head>
 <body>
     
+    
+    <section class="grid-container">
+        <nav>
+            <h1>sneakers</h1>
+            <ul class="nav-links">
+                <li>Collections</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            <img src="imgs/dua.jpeg" alt="User image" class="userImage">
+        </nav>
+
+        <article class="grid-left">
+            <img src="imgs/sneakers.jpeg" alt="Product: sneakers">
+            <figure class="fig-container">
+                <img src="imgs/sneakers.jpeg" alt="" class="preview-img">
+                <img src="imgs/sneakers.jpeg" alt="" class="preview-img">
+                <img src="imgs/sneakers.jpeg" alt="" class="preview-img">
+                <img src="imgs/sneakers.jpeg" alt="" class="preview-img">
+            </figure>
+        </article>
+
+        <article class="grid-right">
+            <main>
+                <h5>SNEAKER COMPANY</h5>
+                <h1>Fall Limited Edition <br> Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion.
+                    Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+                </p>
+                <h2>$125.00 <span>50%</span></h2>
+                <h5 class="price"> $250.00 </h5>
+            </main>
+
+            <footer>
+                <button class="btn-left"><span class="material-symbols-outlined">remove</span> <strong>0</strong> <span class="material-symbols-outlined">add</span></button>
+                <button class="btn-right"><span class="material-symbols-outlined">shopping_cart</span> <strong> Add to cart</strong></button>
+            </footer>
+        </article>
+
+    </section>
+
 </body>
 </html>
